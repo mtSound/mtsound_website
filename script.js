@@ -643,7 +643,7 @@ fetch('reelMedia.json')
             div2.appendChild(div3);
 
             let reelImg = document.createElement('img');
-            reelImg.loading = "lazy";
+            // reelImg.loading = "lazy";
             reelImg.className = "thumbnail";
             reelImg.display = "block";
             reelImg.src = `./images/reelimages/${reel.imgName}.png`
