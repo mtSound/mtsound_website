@@ -593,7 +593,7 @@ function createFormatCategories() {
 // let node = `<div class="media-card" id="${reelArrayRand[i].vidURL}">
 //                 <div class="media-card-item">
 //                     <div class="img-wrapper"><img loading="lazy" class="thumbnail" display="block"
-//                             src="./images/${reelArrayRand[i].imgName}.png">
+//                             src="./images/${reelArrayRand[i].imgName}.webp">
 //                     </div>
 //                     <div class="credit">
 //                         <div class="media-title">${reelArrayRand[i].title}</div>
@@ -646,7 +646,7 @@ fetch('reelMedia.json')
             // reelImg.loading = "lazy";
             reelImg.className = "thumbnail";
             reelImg.display = "block";
-            reelImg.src = `./images/reelimages/${reel.imgName}.png`
+            reelImg.src = `./images/reelimages/${reel.imgName}.webp`
             div3.appendChild(reelImg);
 
             let div4 = document.createElement('div');
